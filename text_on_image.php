@@ -14,7 +14,6 @@
     imagettftext($img, 40, 0, 300, 300, $white, $font, $txt);
     //Image will display on the browser
     $name = rand();
-    
     imagejpeg($img,"photos/".$name.".jpg");    
     imagedestroy($img);
 ?>
